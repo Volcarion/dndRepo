@@ -1,1 +1,1 @@
-https://rolz.org/help/api
+[Rolz help website](https://rolz.org/help/api)
