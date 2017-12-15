@@ -1,0 +1,44 @@
+<style type="text/css">
+    body{
+        color:red;
+    }
+</style>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>{{vm.content}}</h1>
+                        <form novalidate>
+                            <div class="form-group">
+                                <label for="selectClass">Class</label>
+                                <select id="selectClass" 
+                                        class="form-control" 
+                                        ng-model="vm.selectedClass" 
+                                        ng-options="apt.characterClass for apt in vm.characters"></select>
+                            </div>
+                            <div class="form-group">
+                                <label for="selectGender">Gender</label>
+                                <select id="selectGender" 
+                                        class="form-control" 
+                                        ng-model="vm.selectedGender" 
+                                        ng-options="apt.gender for apt in vm.characters"></select>
+                            </div>
+                           <!-- <div class="form-group">
+                                <label for="selectDifficulty">Difficulty</label>
+                                <select id="selectDifficulty" 
+                                        class="form-control" 
+                                        ng-model="vm.selectedDifficulty" 
+                                        ng-options="apt.characterClass for apt in vm.characters"></select>
+                            </div>         -->                    
+                        </form>
+                    <a href="/character" onclick="vm">Character</a>
+                   <!-- <button type="button" 
+                            class="btn btn-default" 
+                            id="clear-selected-data" 
+                            ng-click="vm.clearSelectedData()">Clear Selected</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->

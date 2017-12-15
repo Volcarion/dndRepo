@@ -1,0 +1,370 @@
+#sidebar-wrapper {
+    color: #1c123a;
+    background: #1c123a;
+}
+.sidebar-nav {
+    color: #1c123a;
+    background: #1c123a;
+}
+td {
+    padding:5px;
+    text-decoration: underline;
+}
+
+.customTable td{
+    border:1px solid black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.customTable td:nth-child(2){
+    background: black;
+    color: ghostWhite;
+    border-bottom: 1px solid white;
+}
+
+body{
+    background:black;
+    width: 812px;
+}
+.name{
+    position:absolute;
+    left: 35px;
+    top: 25px;
+    font-size: 24px;
+}
+
+.characterClass{
+    position:absolute; 
+    left:35px; 
+    top:61px; 
+    font-size:18px;
+}
+
+.characterLvl{
+    position:absolute; 
+    left:80px; 
+    top:61px; 
+    font-size:18px;
+}
+.race{position:absolute; left:270px; top:61px; font-size:18px}
+.alignment{position:absolute; left:350px; top:61px; font-size:11px}
+.deity{position:absolute; left:435px; top:61px; font-size:11px}
+.size{position:absolute; left:35px; top:90px; font-size:15px}
+.age{position:absolute; left:95px; top:90px; font-size:15px}
+.gender{position:absolute; left:155px; top:90px; font-size:15px}
+.height{position:absolute; left:210px; top:90px; font-size:15px}
+.weight{position:absolute; left:275px; top:90px; font-size:15px}
+.eyes{position:absolute; left:330px; top:90px; font-size:15px}
+.hair{position:absolute; left:380px; top:90px; font-size:11px}
+.skin{position:absolute; left:450px; top:90px; font-size:11px}
+.strScore{position:absolute; left:108px; top:141px; font-size:15px}
+.dexScore{position:absolute; left:108px; top:164px; font-size:15px}
+.conScore{position:absolute; left:108px; top:187px; font-size:15px}
+.intScore{position:absolute; left:108px; top:210px; font-size:15px}
+.wisScore{position:absolute; left:108px; top:233px; font-size:15px}
+.chaScore{position:absolute; left:108px; top:256px; font-size:15px}
+.strMod{position:absolute; left:147px; top:141px; font-size:15px}
+.dexMod{position:absolute; left:147px; top:164px; font-size:15px}
+.conMod{position:absolute; left:147px; top:187px; font-size:15px}
+.intMod{position:absolute; left:147px; top:210px; font-size:15px}
+.wisMod{position:absolute; left:147px; top:233px; font-size:15px}
+.chaMod{position:absolute; left:147px; top:256px; font-size:15px}
+.hp{position:absolute; left:308px; top:141px; font-size:15px}
+.speed{position:absolute; left:658px; top:141px; font-size:15px}
+.acTotal{position:absolute; left:308px; top:164px; font-size:15px}
+.armorBonus{position:absolute; left:388px; top:164px; font-size:15px}
+.shieldBonus{position:absolute; left:430px; top:164px; font-size:15px}
+.acDex{position:absolute; left:474px; top:164px; font-size:15px}
+.acSize{position:absolute; left:518px; top:164px; font-size:15px}
+.acNatural{position:absolute; left:561px; top:164px; font-size:15px}
+.deflection{position:absolute; left:604px; top:164px; font-size:15px}
+.acMisc{position:absolute; left:647px; top:164px; font-size:15px}
+.damageReduction{position:absolute; left:707px; top:178px; font-size:15px}
+.touchAC{position:absolute; left:313px; top:210px; font-size:15px}
+.flatFooted{position:absolute; left:425px; top:210px; font-size:15px}
+.maxRanks{position:absolute; left:715px; top:208px; font-size:15px}
+.initiative{position:absolute; left:348px; top:243px; font-size:15px}
+.dexInitiative{position:absolute; left:384px; top:243px; font-size:15px}
+.miscInitiative{position:absolute; left:420px; top:243px; font-size:15px}
+.fort{position:absolute; left:157px; top:300px; font-size:15px}
+.fortBase{position:absolute; left:194px; top:300px; font-size:15px}
+.fortAbility{position:absolute; left:230px; top:300px; font-size:15px}
+.fortMagic{position:absolute; left:267px; top:300px; font-size:15px}
+.fortMisc{position:absolute; left:302px; top:300px; font-size:15px}
+.ref{position:absolute; left:157px; top:323px; font-size:15px}
+.refBase{position:absolute; left:194px; top:323px; font-size:15px}
+.refAbility{position:absolute; left:230px; top:323px; font-size:15px}
+.refMagic{position:absolute; left:267px; top:323px; font-size:15px}
+.refMisc{position:absolute; left:302px; top:323px; font-size:15px}
+.will{position:absolute; left:157px; top:346px; font-size:15px}
+.willBase{position:absolute; left:194px; top:346px; font-size:15px}
+.willAbility{position:absolute; left:230px; top:346px; font-size:15px}
+.willMagic{position:absolute; left:267px; top:346px; font-size:15px}
+.willMisc{position:absolute; left:302px; top:346px; font-size:15px}
+.baseATK{position:absolute; left:250px; top:382px; font-size:15px}
+.spellResist{position:absolute; left:390px; top:382px; font-size:15px}
+.grapple{position:absolute; left:187px; top:418px; font-size:15px}
+.grappleBase{position:absolute; left:245px; top:418px; font-size:15px}
+.grappleSTR{position:absolute; left:293px; top:418px; font-size:15px}
+.grappleSize{position:absolute; left:340px; top:418px; font-size:15px}
+.grappleMisc{position:absolute; left:390px; top:418px; font-size:15px}
+.appraise{position:absolute; left:628px; top:256px; font-size:13px}
+.appraiseAbility{position:absolute; left:665px; top:254px; font-size:13px}
+.appraiseRanks{position:absolute; left:693px; top:254px; font-size:13px}
+.appraiseMisc{position:absolute; left:725px; top:254px; font-size:13px}
+.balance{position:absolute; left:628px; top:270px; font-size:13px}
+.balanceAbility{position:absolute; left:665px; top:269px; font-size:13px}
+.balanceRanks{position:absolute; left:693px; top:269px; font-size:13px}
+.balanceMisc{position:absolute; left:725px; top:269px; font-size:13px}
+.bluff{position:absolute; left:628px; top:284px; font-size:13px}
+.bluffAbility{position:absolute; left:665px; top:283px; font-size:13px}
+.bluffRanks{position:absolute; left:693px; top:283px; font-size:13px}
+.bluffMisc{position:absolute; left:725px; top:283px; font-size:13px}
+.climb{position:absolute; left:628px; top:298px; font-size:13px}
+.climbAbility{position:absolute; left:665px; top:297px; font-size:13px}
+.climbRanks{position:absolute; left:693px; top:297px; font-size:13px}
+.climbMisc{position:absolute; left:725px; top:297px; font-size:13px}
+.concentration{position:absolute; left:628px; top:312px; font-size:13px}
+.concentrationAbility{position:absolute; left:665px; top:311px; font-size:13px}
+.concentrationRanks{position:absolute; left:693px; top:311px; font-size:13px}
+.concentrationMisc{position:absolute; left:725px; top:311px; font-size:13px}
+.craft1{position:absolute; left:628px; top:326px; font-size:13px}
+.craft1Ability{position:absolute; left:665px; top:325px; font-size:13px}
+.craft1Ranks{position:absolute; left:693px; top:325px; font-size:13px}
+.craft1Misc{position:absolute; left:725px; top:325px; font-size:13px}
+.craft2{position:absolute; left:628px; top:340px; font-size:13px}
+.craft2Ability{position:absolute; left:665px; top:339px; font-size:13px}
+.craft2Ranks{position:absolute; left:693px; top:339px; font-size:13px}
+.craft2Misc{position:absolute; left:725px; top:339px; font-size:13px}
+.craft3{position:absolute; left:628px; top:354px; font-size:13px}
+.craft3Ability{position:absolute; left:665px; top:353px; font-size:13px}
+.craft3Ranks{position:absolute; left:693px; top:353px; font-size:13px}
+.craft3Misc{position:absolute; left:725px; top:353px; font-size:13px}
+.decipher{position:absolute; left:628px; top:368px; font-size:13px}
+.decipherAbility{position:absolute; left:665px; top:367px; font-size:13px}
+.decipherRanks{position:absolute; left:693px; top:367px; font-size:13px}
+.decipherMisc{position:absolute; left:725px; top:367px; font-size:13px}
+.diplomacy{position:absolute; left:628px; top:382px; font-size:13px}
+.diplomacyAbility{position:absolute; left:665px; top:381px; font-size:13px}
+.diplomacyRanks{position:absolute; left:693px; top:381px; font-size:13px}
+.diplomacyMisc{position:absolute; left:725px; top:381px; font-size:13px}
+.disable{position:absolute; left:628px; top:396px; font-size:13px}
+.disableAbility{position:absolute; left:665px; top:395px; font-size:13px}
+.disableRanks{position:absolute; left:693px; top:395px; font-size:13px}
+.disableMisc{position:absolute; left:725px; top:395px; font-size:13px}
+.disguise{position:absolute; left:628px; top:410px; font-size:13px}
+.disguiseAbility{position:absolute; left:665px; top:409px; font-size:13px}
+.disguiseRanks{position:absolute; left:693px; top:409px; font-size:13px}
+.disguiseMisc{position:absolute; left:725px; top:409px; font-size:13px}
+.escape{position:absolute; left:628px; top:424px; font-size:13px}
+.escapeAbility{position:absolute; left:665px; top:423px; font-size:13px}
+.escapeRanks{position:absolute; left:693px; top:423px; font-size:13px}
+.escapeMisc{position:absolute; left:725px; top:423px; font-size:13px}
+.forgery{position:absolute; left:628px; top:438px; font-size:13px}
+.forgeryAbility{position:absolute; left:665px; top:437px; font-size:13px}
+.forgeryRanks{position:absolute; left:693px; top:437px; font-size:13px}
+.forgeryMisc{position:absolute; left:725px; top:437px; font-size:13px}
+.gather{position:absolute; left:628px; top:451px; font-size:13px}
+.gatherAbility{position:absolute; left:665px; top:450px; font-size:13px}
+.gatherRanks{position:absolute; left:693px; top:450px; font-size:13px}
+.gatherMisc{position:absolute; left:725px; top:450px; font-size:13px}
+.handle{position:absolute; left:628px; top:466px; font-size:13px}
+.handleAbility{position:absolute; left:665px; top:465px; font-size:13px}
+.handleRanks{position:absolute; left:693px; top:465px; font-size:13px}
+.handleMisc{position:absolute; left:725px; top:465px; font-size:13px}
+.heal{position:absolute; left:628px; top:479px; font-size:13px}
+.healAbility{position:absolute; left:665px; top:478px; font-size:13px}
+.healRanks{position:absolute; left:693px; top:478px; font-size:13px}
+.healMisc{position:absolute; left:725px; top:478px; font-size:13px}
+.hide{position:absolute; left:628px; top:493px; font-size:13px}
+.hideAbility{position:absolute; left:665px; top:492px; font-size:13px}
+.hideRanks{position:absolute; left:693px; top:492px; font-size:13px}
+.hideMisc{position:absolute; left:725px; top:492px; font-size:13px}
+.intimidate{position:absolute; left:628px; top:507px; font-size:13px}
+.intimidateAbility{position:absolute; left:665px; top:506px; font-size:13px}
+.intimidateRanks{position:absolute; left:693px; top:506px; font-size:13px}
+.intimidateMisc{position:absolute; left:725px; top:506px; font-size:13px}
+.jump{position:absolute; left:628px; top:521px; font-size:13px}
+.jumpAbility{position:absolute; left:665px; top:520px; font-size:13px}
+.jumpRanks{position:absolute; left:693px; top:520px; font-size:13px}
+.jumpMisc{position:absolute; left:725px; top:520px; font-size:13px}
+.knowledge1{position:absolute; left:628px; top:535px; font-size:13px}
+.knowledge1Ability{position:absolute; left:665px; top:534px; font-size:13px}
+.knowledge1Ranks{position:absolute; left:693px; top:534px; font-size:13px}
+.knowledge1Misc{position:absolute; left:725px; top:534px; font-size:13px}
+.knowledge2{position:absolute; left:628px; top:549px; font-size:13px}
+.knowledge2Ability{position:absolute; left:665px; top:548px; font-size:13px}
+.knowledge2Ranks{position:absolute; left:693px; top:548px; font-size:13px}
+.knowledge2Misc{position:absolute; left:725px; top:548px; font-size:13px}
+.knowledge3{position:absolute; left:628px; top:563px; font-size:13px}
+.knowledge3Ability{position:absolute; left:665px; top:562px; font-size:13px}
+.knowledge3Ranks{position:absolute; left:693px; top:562px; font-size:13px}
+.knowledge3Misc{position:absolute; left:725px; top:562px; font-size:13px}
+.knowledge4{position:absolute; left:628px; top:577px; font-size:13px}
+.knowledge4Ability{position:absolute; left:665px; top:576px; font-size:13px}
+.knowledge4Ranks{position:absolute; left:693px; top:576px; font-size:13px}
+.knowledge4Misc{position:absolute; left:725px; top:576px; font-size:13px}
+.knowledge5{position:absolute; left:628px; top:591px; font-size:13px}
+.knowledge5Ability{position:absolute; left:665px; top:590px; font-size:13px}
+.knowledge5Ranks{position:absolute; left:693px; top:590px; font-size:13px}
+.knowledge5Misc{position:absolute; left:725px; top:590px; font-size:13px}
+.listen{position:absolute; left:628px; top:605px; font-size:13px}
+.listenAbility{position:absolute; left:665px; top:604px; font-size:13px}
+.listenRanks{position:absolute; left:693px; top:604px; font-size:13px}
+.listenMisc{position:absolute; left:725px; top:604px; font-size:13px}
+.move{position:absolute; left:628px; top:619px; font-size:13px}
+.moveAbility{position:absolute; left:665px; top:618px; font-size:13px}
+.moveRanks{position:absolute; left:693px; top:618px; font-size:13px}
+.moveMisc{position:absolute; left:725px; top:618px; font-size:13px}
+.open{position:absolute; left:628px; top:633px; font-size:13px}
+.openAbility{position:absolute; left:665px; top:632px; font-size:13px}
+.openRanks{position:absolute; left:693px; top:632px; font-size:13px}
+.openMisc{position:absolute; left:725px; top:632px; font-size:13px}
+.perform1{position:absolute; left:628px; top:646px; font-size:13px}
+.perform1Ability{position:absolute; left:665px; top:645px; font-size:13px}
+.perform1Ranks{position:absolute; left:693px; top:645px; font-size:13px}
+.perform1Misc{position:absolute; left:725px; top:645px; font-size:13px}
+.perform2{position:absolute; left:628px; top:660px; font-size:13px}
+.perform2Ability{position:absolute; left:665px; top:659px; font-size:13px}
+.perform2Ranks{position:absolute; left:693px; top:659px; font-size:13px}
+.perform2Misc{position:absolute; left:725px; top:659px; font-size:13px}
+.perform3{position:absolute; left:628px; top:674px; font-size:13px}
+.perform3Ability{position:absolute; left:665px; top:673px; font-size:13px}
+.perform3Ranks{position:absolute; left:693px; top:673px; font-size:13px}
+.perform3Misc{position:absolute; left:725px; top:673px; font-size:13px}
+.profession1{position:absolute; left:628px; top:688px; font-size:13px}
+.profession1Ability{position:absolute; left:665px; top:687px; font-size:13px}
+.profession1Ranks{position:absolute; left:693px; top:687px; font-size:13px}
+.profession1Misc{position:absolute; left:725px; top:687px; font-size:13px}
+.profession2{position:absolute; left:628px; top:702px; font-size:13px}
+.profession2Ability{position:absolute; left:665px; top:701px; font-size:13px}
+.profession2Ranks{position:absolute; left:693px; top:701px; font-size:13px}
+.profession2Misc{position:absolute; left:725px; top:701px; font-size:13px}
+.ride{position:absolute; left:628px; top:716px; font-size:13px}
+.rideAbility{position:absolute; left:665px; top:715px; font-size:13px}
+.rideRanks{position:absolute; left:693px; top:715px; font-size:13px}
+.rideMisc{position:absolute; left:725px; top:715px; font-size:13px}
+.search{position:absolute; left:628px; top:731px; font-size:13px}
+.searchAbility{position:absolute; left:665px; top:730px; font-size:13px}
+.searchRanks{position:absolute; left:693px; top:730px; font-size:13px}
+.searchMisc{position:absolute; left:725px; top:730px; font-size:13px}
+.sense{position:absolute; left:628px; top:744px; font-size:13px}
+.senseAbility{position:absolute; left:665px; top:743px; font-size:13px}
+.senseRanks{position:absolute; left:693px; top:743px; font-size:13px}
+.senseMisc{position:absolute; left:725px; top:743px; font-size:13px}
+.sleight{position:absolute; left:628px; top:758px; font-size:13px}
+.sleightAbility{position:absolute; left:665px; top:757px; font-size:13px}
+.sleightRanks{position:absolute; left:693px; top:757px; font-size:13px}
+.sleightMisc{position:absolute; left:725px; top:757px; font-size:13px}
+.spellcraft{position:absolute; left:628px; top:772px; font-size:13px}
+.spellcraftAbility{position:absolute; left:665px; top:771px; font-size:13px}
+.spellcraftRanks{position:absolute; left:693px; top:771px; font-size:13px}
+.spellcraftMisc{position:absolute; left:725px; top:771px; font-size:13px}
+.spot{position:absolute; left:628px; top:786px; font-size:13px}
+.spotAbility{position:absolute; left:665px; top:790px; font-size:13px}
+.spotRanks{position:absolute; left:693px; top:790px; font-size:13px}
+.spotMisc{position:absolute; left:725px; top:790px; font-size:13px}
+.survival{position:absolute; left:628px; top:800px; font-size:13px}
+.survivalAbility{position:absolute; left:665px; top:799px; font-size:13px}
+.survivalRanks{position:absolute; left:693px; top:799px; font-size:13px}
+.survivalMisc{position:absolute; left:725px; top:799px; font-size:13px}
+.swim{position:absolute; left:628px; top:814px; font-size:13px}
+.swimAbility{position:absolute; left:665px; top:813px; font-size:13px}
+.swimRanks{position:absolute; left:693px; top:813px; font-size:13px}
+.swimMisc{position:absolute; left:725px; top:813px; font-size:13px}
+.tumble{position:absolute; left:628px; top:828px; font-size:13px}
+.tumbleAbility{position:absolute; left:665px; top:827px; font-size:13px}
+.tumbleRanks{position:absolute; left:693px; top:827px; font-size:13px}
+.tumbleMisc{position:absolute; left:725px; top:827px; font-size:13px}
+.useMagic{position:absolute; left:628px; top:842px; font-size:13px}
+.useMagicAbility{position:absolute; left:665px; top:841px; font-size:13px}
+.useMagicRanks{position:absolute; left:693px; top:841px; font-size:13px}
+.useMagicMisc{position:absolute; left:725px; top:841px; font-size:13px}
+.useRope{position:absolute; left:628px; top:856px; font-size:13px}
+.useRopeAbility{position:absolute; left:665px; top:855px; font-size:13px}
+.useRopeRanks{position:absolute; left:693px; top:855px; font-size:13px}
+.useRopeMisc{position:absolute; left:725px; top:855px; font-size:13px}
+.wpnAtk1{position:absolute; left:93px; top:483px; font-size:17px}
+.wpnAtkBonus1{position:absolute; left:240px; top:483px; font-size:17px}
+.wpnDmg1{position:absolute; left:340px; top:483px; font-size:17px}
+.wpnCrit1{position:absolute; left:400px; top:483px; font-size:17px}
+.wpnRange1{position:absolute; left:60px; top:517px; font-size:17px}
+.wpnType1{position:absolute; left:120px; top:517px; font-size:17px}
+.wpnAtk2{position:absolute; left:93px; top:584px; font-size:17px}
+.wpnAtkBonus2{position:absolute; left:240px; top:584px; font-size:17px}
+.wpnDmg2{position:absolute; left:340px; top:584px; font-size:17px}
+.wpnCrit2{position:absolute; left:400px; top:584px; font-size:17px}
+.wpnRange2{position:absolute; left:60px; top:618px; font-size:17px}
+.wpnType2{position:absolute; left:120px; top:618px; font-size:17px}
+.armor{position:absolute; left:120px; top:1189px; font-size:17px}
+.armorType{position:absolute; left:245px; top:1189px; font-size:17px}
+.armorAC{position:absolute; left:310px; top:1189px; font-size:17px}
+.armorDex{position:absolute; left:380px; top:1189px; font-size:17px}
+.armorCheck{position:absolute; left:110px; top:1220px; font-size:17px}
+.armorFailure{position:absolute; left:170px; top:1220px; font-size:17px}
+.armorSpeed{position:absolute; left:230px; top:1220px; font-size:17px}
+.armorWeight{position:absolute; left:270px; top:1220px; font-size:17px}
+.shield{position:absolute; left:120px; top:1268px; font-size:17px}
+.shieldAC{position:absolute; left:240px; top:1268px; font-size:17px}
+.shieldWeight{position:absolute; left:295px; top:1268px; font-size:17px}
+.shieldCheck{position:absolute; left:360px; top:1268px; font-size:17px}
+.shieldFailure{position:absolute; left:110px; top:1300px; font-size:17px}
+.gear1{position:absolute; left:90px; top:1452px; font-size:12px}
+.gear2{position:absolute; left:90px; top:1470px; font-size:12px}
+.gear3{position:absolute; left:90px; top:1488px; font-size:12px}
+.gear4{position:absolute; left:90px; top:1507px; font-size:12px}
+.gear5{position:absolute; left:90px; top:1525px; font-size:12px}
+.gear6{position:absolute; left:90px; top:1544px; font-size:12px}
+.gear7{position:absolute; left:90px; top:1563px; font-size:12px}
+.gear8{position:absolute; left:90px; top:1580px; font-size:12px}
+.gear9{position:absolute; left:90px; top:1598px; font-size:12px}
+.gear10{position:absolute; left:90px; top:1616px; font-size:12px}
+.gear11{position:absolute; left:90px; top:1635px; font-size:12px}
+.gear12{position:absolute; left:90px; top:1652px; font-size:12px}
+.gear13{position:absolute; left:90px; top:1671px; font-size:12px}
+.gear1Weight{position:absolute; left:230px; top:1452px; font-size:12px}
+.gear2Weight{position:absolute; left:230px; top:1470px; font-size:12px}
+.gear3Weight{position:absolute; left:230px; top:1488px; font-size:12px}
+.gear4Weight{position:absolute; left:230px; top:1507px; font-size:12px}
+.gear5Weight{position:absolute; left:230px; top:1525px; font-size:12px}
+.gear6Weight{position:absolute; left:230px; top:1544px; font-size:12px}
+.gear7Weight{position:absolute; left:230px; top:1563px; font-size:12px}
+.gear8Weight{position:absolute; left:230px; top:1580px; font-size:12px}
+.gear9Weight{position:absolute; left:230px; top:1598px; font-size:12px}
+.gear10Weight{position:absolute; left:230px; top:1616px; font-size:12px}
+.gear11Weight{position:absolute; left:230px; top:1635px; font-size:12px}
+.gear12Weight{position:absolute; left:230px; top:1652px; font-size:12px}
+.gear13Weight{position:absolute; left:230px; top:1671px; font-size:12px}
+.weightCarried{position:absolute; left:383px; top:1744px; font-size:12px}
+.lightLoad{position:absolute; left:123px; top:1778px; font-size:12px}
+.medLoad{position:absolute; left:170px; top:1778px; font-size:12px}
+.heavyLoad{position:absolute; left:220px; top:1778px; font-size:12px}
+.overHead{position:absolute; left:265px; top:1778px; font-size:12px}
+.lift{position:absolute; left:315px; top:1778px; font-size:12px}
+.push{position:absolute; left:365px; top:1778px; font-size:12px}
+.gold{position:absolute; left:115px; top:1893px; font-size:12px}
+.feat1{position:absolute; left:430px; top:1097px; font-size:12px}
+.feat2{position:absolute; left:430px; top:1115px; font-size:12px}
+.feat3{position:absolute; left:430px; top:1133px; font-size:12px}
+.special1{position:absolute; left:430px; top:1350px; font-size:12px}
+.special2{position:absolute; left:430px; top:1370px; font-size:12px}
+.special3{position:absolute; left:430px; top:1388px; font-size:12px}
+.special4{position:absolute; left:430px; top:1406px; font-size:12px}
+.special5{position:absolute; left:430px; top:1424px; font-size:12px}
+.special6{position:absolute; left:430px; top:1443px; font-size:12px}
+.special7{position:absolute; left:430px; top:1461px; font-size:12px}
+.special8{position:absolute; left:430px; top:1479px; font-size:12px}
+.special9{position:absolute; left:430px; top:1497px; font-size:12px}
+.special10{position:absolute; left:430px; top:1515px; font-size:12px}
+.special11{position:absolute; left:430px; top:1534px; font-size:12px}
+.special12{position:absolute; left:430px; top:1552px; font-size:12px}
+.special13{position:absolute; left:430px; top:1570px; font-size:12px}
+.special14{position:absolute; left:430px; top:1588px; font-size:12px}
+.special15{position:absolute; left:430px; top:1607px; font-size:12px}
+.lang1{position:absolute; left:430px; top:1825px; font-size:12px}
+.lang2{position:absolute; left:430px; top:1843px; font-size:12px}
+.lang3{position:absolute; left:430px; top:1861px; font-size:12px}
+.lang4{position:absolute; left:430px; top:1879px; font-size:12px}
+.lang5{position:absolute; left:430px; top:1897px; font-size:12px}
+.lang6{position:absolute; left:430px; top:1917px; font-size:12px}
